@@ -1,0 +1,61 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+.oauth{
+  padding-top: 11%;
+  text-align: center;
+  height: 500px;
+  background: transparent linear-gradient(42deg, #ff5b5b 0%, #dba3db 100%) 0% 0%
+    no-repeat padding-box;
+}
+.fb{
+  width: 165px;
+  height: 55px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background: transparent linear-gradient(180deg, #526fb3 0%, #334c81 100%) 0%
+    0% no-repeat padding-box;
+  margin-top: 10px;
+  color:#fff ;
+  display: flex;
+  padding-top: 3px;
+  margin-top: 0px;
+  background: transparent linear-gradient(180deg, #526fb3 0%, #334c81 100%) 0%
+    0% no-repeat padding-box;
+}
+
+.logout{
+  border: none;
+  outline: none;
+  background: transparent
+    linear-gradient(83deg, #f0f0f0 0%, #f9f9f9 64%, #ffffff 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 6px;
+  box-shadow: 0px 3px 10px #00000026;
+  color: #ef7c96;
+  font-size: 17px;
+  font-weight: 600;
+  width: 280px;
+  height: 45px;
+}
+.login{
+  margin-top: 1rem;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+  .login{
+  text-align: center;
+  justify-content: space-evenly;
+}
+  .oauth{
+    padding-top: 30%;
+  }
+  .btn{
+    padding-bottom: 10px;
+  }
+}

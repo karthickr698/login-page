@@ -1,0 +1,399 @@
+.header{
+  position: absolute;
+  width: 100%;
+  font-size: 190px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: rgb(194, 194, 194);
+  margin-top: -10px;
+  opacity: 0.5;
+  text-align: center;
+  letter-spacing: 0px;
+}
+
+.login{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login > div {
+  margin: 6px;
+}
+.forget {
+  color: #555555;
+  text-decoration: none;
+  opacity: 0.6;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.signIn{
+  color: #F1788E;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.signIn:hover{
+  text-decoration: underline;
+}
+
+.register{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+.forget:hover{
+  text-decoration: underline;
+}
+.link{
+  text-decoration: none;
+  color: #F1788E;
+}
+.link:hover{
+  text-decoration: underline;
+}
+.loginCont {
+  width: 380px;
+  height: 400px;
+  margin-top: 19vh !important;
+  background: transparent linear-gradient(42deg, #ff5b5b 0%, #dba3db 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+  outline: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.forgetCont{
+  height: 150px;
+  width: 430px;
+  margin-top: 3vh !important;
+}
+.registerCont{
+  height: 510px;
+  margin-top: 13vh !important;
+}
+.registerpwdCont{
+  height: 960px;
+  margin-top: 13vh !important;
+}
+.registerLabel {
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.7;
+  font-size: 17px;
+  font-weight: 600;
+}
+.registerBtn{
+  margin-top: 20px;
+}
+.loginsubCont {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.registersubCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.loginBtn {
+  border: none;
+  outline: none;
+  background: transparent
+    linear-gradient(83deg, #f0f0f0 0%, #f9f9f9 64%, #ffffff 100%) 0% 0%
+    no-repeat padding-box;
+  border-radius: 6px;
+  box-shadow: 0px 3px 10px #00000026;
+  color: #ef7c96;
+  font-size: 17px;
+  font-weight: 600;
+  width: 355px;
+  height: 45px;
+}
+
+.rememberMe {
+  text-align: center;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.label {
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.checkCont {
+  display: flex;
+  align-items: center;
+  margin: 8px 0 12px 0;
+}
+
+.checkCont input {
+  width: 24px;
+  height: 24px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  opacity: 1;
+  margin-right: 15px;
+}
+
+.inputTag {
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  width: 350px;
+  height: 45px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  margin:8px auto 8px auto;
+}c
+
+.oauthloginCont {
+  margin-top: 17px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.oauthloginCont button {
+  color: #ffffff;
+  width: 350px;
+  height: 35px;
+  border-radius: 4px;
+  opacity: 1;
+  border: none;
+  outline: none;
+}
+.oauthloginGoogle{
+  width: 350px;
+  height: 35px;
+  border-radius: 6px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.oauthloginGoogle button{
+  color:black;
+  background: #ffffff 0% 0% no-repeat padding-box;
+}
+.oauthloginFb {
+  width: 350px;
+  height: 35px;
+  border-radius: 6px;
+  background: transparent linear-gradient(180deg, #526fb3 0%, #334c81 100%) 0%
+    0% no-repeat padding-box;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.oauthloginFb button{
+  background: transparent linear-gradient(180deg, #526fb3 0%, #334c81 100%) 0%
+    0% no-repeat padding-box;
+}
+.oauthloginTwitter {
+  width: 350px;
+  height: 35px;
+  border-radius: 6px;
+  margin-top: 10px;
+  background: linear-gradient(#5bc3e0 0%, #2093bf 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.oauthloginTwitter button{
+  background: linear-gradient(#5bc3e0 0%, #2093bf 100%);
+}
+.oauth{
+  display: none;
+}
+.logo{
+  display: none;
+}
+
+.message {
+  display:block;
+  background: #f1f1f1;
+  color: #000;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.msg{
+  display: none;
+}
+
+.message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+.valid {
+  color: green;
+}
+
+.valid:before {
+  left: -35px;
+  content: "✔";
+}
+
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  left: -35px;
+  content: "✖";
+}
+.success{
+  display: block;
+  margin: auto;
+  margin-top: 12%;
+  width: 483px;
+  height: 300px;
+  background-color: #2093bf;
+}
+.successCont{
+  height: 45px;
+  padding: 20px;
+  font: normal normal bold 34px Avenir Next LT Pro;
+  letter-spacing: 0px;
+  color: #5BFFB3;
+  opacity: 1;
+  display: flex;
+  justify-content: space-around;
+}
+.icon{
+  font-size: 38px !important;
+}
+.activate{
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+  color: #000000;
+  padding-left: 95px;
+}
+.text{
+  font-size: 13px;
+  text-align: left;
+  padding-left: 99px;
+  color: #000000;
+  opacity: 0.5;
+  width:260px;
+}
+.loginSuccess{
+  width: 330px;
+  height: 55px;
+  background: #5BFFB3 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  opacity: 1;
+  color: #000000;
+  font-size: 18px;
+  outline: none;
+  border: none;
+ justify-content: center;
+ margin: 10% 15% 0 15% ;
+}
+
+@media only screen and (max-width: 600px) {
+  .header{
+    font-size: 80px;
+    margin-top: 40px;
+  }
+  .login{
+    margin: 0 auto 0 auto;
+  }
+  .loginCont {
+    width: 280px;
+    height: 430px;
+    text-align: center;
+    margin-top: 15vh !important;
+  }
+  .registerCont{
+    height: 500px;
+    margin-top: 13vh !important;
+  }
+  .inputTag {
+    width: 250px;
+  }
+  .loginBtn {
+    width: 170px;
+    margin: 0 auto 0 auto;
+  }
+  .oauthloginCont {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  .oauthloginCont>div button{
+    display: none;
+  }
+  .oauthloginCont>div{
+    width: 40px;
+    margin: 10px;
+  }
+  .oauth{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 17px;
+    display: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:10px;
+  }
+  .link{
+    text-decoration: underline;
+  }
+  .forget{
+    text-decoration: underline;
+  }
+  .logo{
+    display: initial;
+    position: absolute;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(194, 194, 194);
+    margin-top: 25px;
+    opacity: 0.6;
+    left: 130px;
+    text-align: center;
+  }
+  .registerBtn{
+    margin-top: 10px;
+  }
+  .registerCont{
+    height: 500px;
+    margin-top: 13vh !important;
+  }
+  .registerpwdCont{
+    height: 1020px;
+    margin-top: 13vh !important;
+  }
+  .forgetCont{
+    height: 150px;
+    width: 280px;
+    margin-top: 3vh !important;
+  }
+  .forgetBtn{
+    width: 253px;
+  }
+}

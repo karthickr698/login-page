@@ -1,0 +1,16 @@
+.img1{
+    width: 100px;
+    height: 100px;
+    background-image: radial-gradient(rgb(214, 198, 240),rgb(115, 104, 214));
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20%;
+}
+.img4{
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(rgb(214, 198, 240),rgb(115, 104, 214));
+    border-radius: 50%;
+    margin-left: 60%;
+    margin-top: -10%;
+}
